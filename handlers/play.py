@@ -143,7 +143,7 @@ async def play(_, message: Message):
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>Hey {user.first_name}, 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 𝐈𝐬 𝐍𝐨𝐭 𝐈𝐧 𝐓𝐡𝐢𝐬 𝐂𝐡𝐚𝐭' 𝐀𝐬𝐤 𝐀𝐝𝐦𝐢𝐧 😎 𝐓𝐨 𝐒𝐞𝐧𝐝 /𝐏𝐥𝐚𝐲 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 😎 𝐅𝐨𝐫 𝐅𝐢𝐫𝐬𝐭 𝐓𝐢𝐦𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐈𝐭 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ [❛-𝐌𝐫'Dhruba 🚬](https://t.me/DhrubaXD) ❤️🥀 </i>")
+            f"<i>Hey {user.first_name}, 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 𝐈𝐬 𝐍𝐨𝐭 𝐈𝐧 𝐓𝐡𝐢𝐬 𝐂𝐡𝐚𝐭' 𝐀𝐬𝐤 𝐀𝐝𝐦𝐢𝐧 😎 𝐓𝐨 𝐒𝐞𝐧𝐝 /𝐏𝐥𝐚𝐲 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 😎 𝐅𝐨𝐫 𝐅𝐢𝐫𝐬𝐭 𝐓𝐢𝐦𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐈𝐭 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ [❛-𝐌𝐫'𝐍𝐢𝐡𝐚𝐥 🚬](https://t.me/Mr_Nihal9) ❤️🥀 </i>")
         return
     
     audio = (
@@ -161,7 +161,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/b8bc5495bd8a3e9ccb2d3.jpg"
+        thumb_name = "https://telegra.ph/file/59fa8cf3cbad5a2251344.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -180,12 +180,12 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="Support",
-                            url=f"https://t.me/Official_K_LegendBot")
+                            url=f"https://t.me/Mr_Nihal9")
                ],
                [
                         InlineKeyboardButton(
                             text="🔰 Help 🔰",
-                            url=f"https://t.me/Legend_K_Userbot")
+                            url=f"https://t.me/Mr_Nihal9")
                    
                 ]
             ]
@@ -233,12 +233,12 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="Support",
-                            url=f"https://t.me/Official_K_LegendBot")
+                            url=f"https://t.me/Mr_Nihal9")
                ],
                [
                         InlineKeyboardButton(
                             text="🔰 Help 🔰",
-                            url=f"https://t.me/Legend_K_Userbot")
+                            url=f"https://t.me/Mr_Nihal9")
                    
                 ]
             ]
@@ -263,12 +263,12 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="Support",
-                            url=f"https://t.me/Official_K_LegendBot")
+                            url=f"https://t.me/Mr_Nihal9")
                ],
                [
                         InlineKeyboardButton(
                             text="🔰 Help 🔰",
-                            url=f"https://t.me/Legend_K_Userbot")
+                            url=f"https://t.me/Mr_Nihal9")
                    
                 ]
             ]
@@ -331,12 +331,12 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="Support",
-                            url=f"https://t.me/Official_K_LegendBot")
+                            url=f"https://t.me/Mr_Nihal9")
                ],
                [
                         InlineKeyboardButton(
                             text="🔰 Help 🔰",
-                            url=f"https://t.me/Legend_K_Userbot")
+                            url=f"https://t.me/Mr_Nihal9")
                    
                 ]
             ]
@@ -375,7 +375,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**▶️ Legendary Music Bot Is Playin Now In** ➡️ `{}`\n**Title:** {}\n**Duration:** {}\nViews: {}".format(
+            caption="**▶️ Cute Queen Music Bot Is Playin Now In** ➡️ `{}`\n**Title:** {}\n**Duration:** {}\nViews: {}".format(
         message.chat.title, results[i]['title'], results[i]['duration'], results[i]['views']
         ), )
 
