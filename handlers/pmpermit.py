@@ -19,7 +19,7 @@ async def pmPermit(client: USER, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="⚜ Master ⚜", url=f"https://t.me/DhrubaXd")   
+                InlineKeyboardButton(text="⚜ Master ⚜", url=f"https://t.me/Mr_Nihal9")   
             ]
         ]
     )
@@ -29,9 +29,9 @@ async def pmPermit(client: USER, message: Message):
             if chat_id in pchats:
                 return
             await message.reply_photo(
-                photo="https://telegra.ph/file/86336252ab3c5125c2a6b.jpg",
+                photo="https://telegra.ph/file/59fa8cf3cbad5a2251344.jpg",
                 reply_markup=keyboard,
-                caption="This Is Music Bot Assistant If U Want To Talk With My Master kindly send a message at @Dhruba_XD",
+                caption="This Is Music Bot Assistant If U Want To Talk With My Master kindly send a message at @Mr_Nihal9",
             )
             return
 
